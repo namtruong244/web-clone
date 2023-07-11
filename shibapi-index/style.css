@@ -1,0 +1,47 @@
+.jss9 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jss10 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jss11 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.jss12 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#background {
+    background: url("./static/media/background-dt.png") no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    #background {
+        background: url("./static/media/background.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav_footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .jss8 {
+        margin-top: 0;
+    }
+}
