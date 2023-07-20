@@ -59,7 +59,7 @@
 .hIVfxe {
     -webkit-box-align: stretch;
     align-items: stretch;
-    background-image: url(./static/images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2185,7 +2185,7 @@ button.svelte-fnc3e1 {
     }
 
     .hIVfxe {
-        background: url("./static/images/background-dt.png") no-repeat center;
+        background: url("staticnd-dt.png") no-repeat center;
         background-size: cover;
         background-attachment: fixed;
     }
