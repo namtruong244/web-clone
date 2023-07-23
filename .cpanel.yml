@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/alipsrjb/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp styles.d04295087cc6f3936c15.css $DEPLOYPATH
+    - /bin/cp runtime-es2015.0dae8cbc97194c7caed4.js $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
