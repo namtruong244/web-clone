@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/arhbvlud/public_html/
-    - /bin/cp file $DEPLOYPATH
-    - /bin/cp -R directory $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
