@@ -359,7 +359,7 @@
         justify-content: stretch
     }
 
-    #masterPage.mesh-layout #PAGES_CONTAINER, #masterPage.mesh-layout #SITE_FOOTER-placeholder, #masterPage.mesh-layout #SITE_FOOTER_WRAPPER, #masterPage.mesh-layout #SITE_HEADER-placeholder, #masterPage.mesh-layout #SITE_HEADER_WRAPPER, #masterPage.mesh-layout #SOSP_CONTAINER_CUSTOM_ID[data-state~=mobileView], #masterPage.mesh-layout #soapAfterPagesContainer, #masterPage.mesh-layout #soapBeforePagesContainer {
+    #masterPage.mesh-layout #PAGES_CONTAINER, #masterPage.mesh-layout #SITE_FOOTER-placeholder, #masterPage.mesh-layout .SITE_FOOTER_WRAPPER, #masterPage.mesh-layout #SITE_HEADER-placeholder, #masterPage.mesh-layout #SITE_HEADER_WRAPPER, #masterPage.mesh-layout #SOSP_CONTAINER_CUSTOM_ID[data-state~=mobileView], #masterPage.mesh-layout #soapAfterPagesContainer, #masterPage.mesh-layout #soapBeforePagesContainer {
         -ms-grid-row-align: start;
         -ms-grid-column-align: start;
         -ms-grid-column: 1
@@ -387,7 +387,7 @@
         display: block
     }
 
-    #masterPage.mesh-layout #SITE_FOOTER-placeholder, #masterPage.mesh-layout #SITE_FOOTER_WRAPPER {
+    #masterPage.mesh-layout #SITE_FOOTER-placeholder, #masterPage.mesh-layout .SITE_FOOTER_WRAPPER {
         grid-area: 4/1/5/2;
         -ms-grid-row: 4
     }
@@ -400,7 +400,7 @@
         width: 100%
     }
 
-    #masterPage.mesh-layout #PAGES_CONTAINER, #masterPage.mesh-layout #SITE_FOOTER, #masterPage.mesh-layout #SITE_FOOTER_WRAPPER, #masterPage.mesh-layout #SITE_HEADER, #masterPage.mesh-layout #SITE_HEADER_WRAPPER, #masterPage.mesh-layout #SITE_PAGES, #masterPage.mesh-layout #masterPageinlineContent {
+    #masterPage.mesh-layout #PAGES_CONTAINER, #masterPage.mesh-layout #SITE_FOOTER, #masterPage.mesh-layout .SITE_FOOTER_WRAPPER, #masterPage.mesh-layout #SITE_HEADER, #masterPage.mesh-layout #SITE_HEADER_WRAPPER, #masterPage.mesh-layout #SITE_PAGES, #masterPage.mesh-layout #masterPageinlineContent {
         position: relative
     }
 
@@ -6706,11 +6706,24 @@
         --static-spx: 1px;
     }
 
+    #comp-leblvh0yd {
+        --static-spx: 1px;
+    }
+
     #comp-leblvh0y:not([data-screen-in-hide="done"]) {
         opacity: 0;
     }
 
+    #comp-leblvh0yd:not([data-screen-in-hide="done"]) {
+        opacity: 0;
+    }
+
     #comp-leblvh0y {
+        width: 554px;
+        height: auto;
+    }
+
+    #comp-leblvh0yd {
         width: 554px;
         height: auto;
     }
@@ -7999,7 +8012,16 @@
         grid-template-columns:100%
     }
 
-    [data-mesh-id=comp-lebke0hwinlineContent-gridContainer] > [id="comp-leblvh0y"] {
+    [id="comp-leblvh0y"] {
+        position: relative;
+        margin: 37px 0px 23px calc((100% - 980px) * 0.5);
+        left: 215px;
+        grid-area: 1 / 1 / 2 / 2;
+        justify-self: start;
+        align-self: start
+    }
+
+    [id="comp-leblvh0yd"] {
         position: relative;
         margin: 37px 0px 23px calc((100% - 980px) * 0.5);
         left: 215px;
@@ -8751,6 +8773,11 @@
         height: auto
     }
 
+    #comp-leblvh0yd {
+        --min-height: 35px;
+        height: auto
+    }
+
     #comp-lf7m6983 {
         --height: 328px;
         --width: 937px
@@ -9011,7 +9038,7 @@
                                                                     </div>
                                                                     <div id="nav-items" style="display: flex; flex-grow: 0.5; justify-content: space-between">
                                                                         <h2 class="font_2 wixui-rich-text__text" style="font-size:17px"><a
-                                                                                href="https://www.arbinucoin.com/_files/ugd/df24a5_f40491f7875e475583195d5f823b8f8f.pdf" target="_blank" class="wixui-rich-text__text"><span style="font-size:40px;"
+                                                                                href="#" target="_blank" class="wixui-rich-text__text"><span style="font-size:40px;"
                                                                                                                                                                                                                              class="wixui-rich-text__text"><span
                                                                                 style="font-family:helvetica-w01-bold;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text"><span style="font-style:normal;"
                                                                                                                                                                                                                             class="wixui-rich-text__text"><span
@@ -9022,7 +9049,7 @@
                                                                                 style="letter-spacing:0em;" class="wixui-rich-text__text"><span style="font-size:17px;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text">Whitepaper</span></span></span></span></span></span></span></span></span></span></span></span></span></span></a>
                                                                         </h2>
                                                                         <h2 class="font_2 wixui-rich-text__text" style="font-size:17px"><a
-                                                                                href="#tokenomics" target="_blank" class="wixui-rich-text__text"><span style="font-size:40px;"
+                                                                                href="#tokenomics" class="wixui-rich-text__text"><span style="font-size:40px;"
                                                                                                                                                                                                                              class="wixui-rich-text__text"><span
                                                                                 style="font-family:helvetica-w01-bold;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text"><span style="font-style:normal;"
                                                                                                                                                                                                                             class="wixui-rich-text__text"><span
@@ -9033,7 +9060,7 @@
                                                                                 style="letter-spacing:0em;" class="wixui-rich-text__text"><span style="font-size:17px;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text">Tokenomics</span></span></span></span></span></span></span></span></span></span></span></span></span></span></a>
                                                                         </h2>
                                                                         <h2 class="font_2 wixui-rich-text__text" style="font-size:17px"><a
-                                                                                href="#roadmap" target="_blank" class="wixui-rich-text__text"><span style="font-size:40px;"
+                                                                                href="#roadmap" class="wixui-rich-text__text"><span style="font-size:40px;"
                                                                                                                                                                                                                              class="wixui-rich-text__text"><span
                                                                                 style="font-family:helvetica-w01-bold;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text"><span style="font-style:normal;"
                                                                                                                                                                                                                             class="wixui-rich-text__text"><span
@@ -9044,7 +9071,7 @@
                                                                                 style="letter-spacing:0em;" class="wixui-rich-text__text"><span style="font-size:17px;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text">Roadmap</span></span></span></span></span></span></span></span></span></span></span></span></span></span></a>
                                                                         </h2>
                                                                         <h2 class="font_2 wixui-rich-text__text" style="font-size:17px"><a
-                                                                                href="https://www.arbinucoin.com/_files/ugd/df24a5_f40491f7875e475583195d5f823b8f8f.pdf" target="_blank" class="wixui-rich-text__text"><span style="font-size:40px;"
+                                                                                href="#contact" class="wixui-rich-text__text"><span style="font-size:40px;"
                                                                                                                                                                                                                              class="wixui-rich-text__text"><span
                                                                                 style="font-family:helvetica-w01-bold;" class="wixui-rich-text__text"><span style="font-weight:normal;" class="wixui-rich-text__text"><span style="font-style:normal;"
                                                                                                                                                                                                                             class="wixui-rich-text__text"><span
@@ -9058,7 +9085,7 @@
                                                                     <div id="badge" style="display: flex; align-items: center">
                                                                         <div data-mesh-id="comp-lj0kj8p1inlineContent" data-testid="inline-content" class="">
                                                                             <div data-mesh-id="comp-lj0kj8p1inlineContent-gridContainer" data-testid="mesh-container-content">
-                                                                                <div id="comp-lj0kj8p3" class="MazNVa comp-lj0kj8p3 wixui-image rYiAuL" style="margin-top: 14px"><a data-testid="linkElement" href="http://todo" target="_blank"
+                                                                                <div id="comp-lj0kj8p3" class="MazNVa comp-lj0kj8p3 wixui-image rYiAuL" style="margin-top: 14px"><a data-testid="linkElement" href="#" target="_blank"
                                                                                                                                                            rel="noreferrer noopener" class="j7pOnl">
                                                                                     <wow-image id="img_comp-lj0kj8p3" class="HlRz5e BI8PVQ"
                                                                                                data-image-info="{&quot;containerId&quot;:&quot;comp-lj0kj8p3&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:121,&quot;targetHeight&quot;:30,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1632,&quot;height&quot;:403,&quot;uri&quot;:&quot;df24a5_2a1165b9484a4e7ebb29a6c3c6876daa~mv2.png&quot;,&quot;name&quot;:&quot;sf.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
@@ -9621,7 +9648,7 @@ Although it lacks significant practical goals or applications, SkibidiToilet sti
                         </div>
                     </div>
                 </main>
-                <footer class="SITE_FOOTER_WRAPPER" tabindex="-1" id="SITE_FOOTER_WRAPPER">
+                <footer class="SITE_FOOTER_WRAPPER" tabindex="-1" id="contact">
                     <div id="SITE_FOOTER" class="xU8fqS SITE_FOOTER wixui-footer" tabindex="-1">
                         <div class="_C0cVf">
                             <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
