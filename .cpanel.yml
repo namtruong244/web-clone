@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/arhbvlud/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp whitepaper.pdf $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
