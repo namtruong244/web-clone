@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="90px" viewBox="0 0 76 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>blockchain / blockchain-security</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18" cy="20" r="3"></circle>
+        <circle id="path-2" cx="60" cy="20" r="3"></circle>
+        <circle id="path-3" cx="61" cy="61" r="3"></circle>
+        <circle id="path-4" cx="17" cy="61" r="3"></circle>
+        <circle id="path-5" cx="39" cy="44" r="3"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8" transform="translate(-35.000000, -28.000000)">
+            <g id="blockchain-/-blockchain-security" transform="translate(35.000000, 29.000000)">
+                <path d="M38,0 C47.1511543,4.75686457 59.5946881,8.45270759 75.3306014,11.0875291 C75.9921231,31.1478457 74.9932691,69.2294651 38,87.6969977" id="Path-281" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M1,0 C10.1511543,4.75686457 22.5946881,8.45270759 38.3306014,11.0875291 C38.9921231,31.1478457 37.9932691,69.2294651 1,87.6969977" id="Path-281-Copy" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(19.722471, 43.848499) scale(-1, 1) translate(-19.722471, -43.848499) "></path>
+                <circle id="Oval-38" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" cx="39" cy="41" r="20"></circle>
+                <path d="M31,38 L47,38 C47.5522847,38 48,38.4477153 48,39 L48,48 C48,50.209139 46.209139,52 44,52 L34,52 C31.790861,52 30,50.209139 30,48 L30,39 C30,38.4477153 30.4477153,38 31,38 Z" id="Rectangle-19" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44,37.4681592 L44,34 C44,31.2385763 41.7614237,29 39,29 C36.2385763,29 34,31.2385763 34,34 L34,37.4681592" id="Oval-39" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M39,45 L39,48.7777778" id="Stroke-3" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-9" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" cx="39" cy="43.5" r="1.5"></circle>
+                <polyline id="Path-299" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" points="53.131957 27.1272425 60.0966731 20.1047851 75.5137913 20.1047851"></polyline>
+                <path d="M60,20.282685 L60,8" id="Path-300" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Path-299" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.073755, 57.383986) rotate(-180.000000) translate(-17.073755, -57.383986) " points="10.2794678 60.8952149 17.2441839 53.8727575 23.868043 53.8727575"></polyline>
+                <path d="M17,70.5508705 L17,60.717315" id="Path-300" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 65.634093) rotate(-180.000000) translate(-17.000000, -65.634093) "></path>
+                <polyline id="Path-299" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(60.002427, 57.383986) scale(1, -1) translate(-60.002427, -57.383986) " points="54.131957 60.8952149 61.0966731 53.8727575 65.8728966 53.8727575"></polyline>
+                <path d="M61,69.0960012 L61,60.717315" id="Path-300" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(61.000000, 64.906658) scale(1, -1) translate(-61.000000, -64.906658) "></path>
+                <polyline id="Path-299" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.926726, 23.616014) scale(1, -1) rotate(-180.000000) translate(-12.926726, -23.616014) " points="0.985409383 27.1272425 7.9501255 20.1047851 24.868043 20.1047851"></polyline>
+                <path d="M18,20.282685 L18,7.5965997" id="Path-300" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.000000, 13.939642) scale(1, -1) rotate(-180.000000) translate(-18.000000, -13.939642) "></path>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" points="38.3725606 21.0133465 47.7042526 11.6816545 47.7042526 4.33759195"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(34.038407, 12.675469) scale(-1, 1) translate(-34.038407, -12.675469) " points="29.3725606 21.0133465 38.7042526 11.6816545 38.7042526 4.33759195"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(64.874088, 45.038407) rotate(-270.000000) translate(-64.874088, -45.038407) " points="60.2082418 50.925841 69.5399338 41.5941489 69.5399338 39.1509723"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(66.791752, 36.038407) scale(-1, 1) rotate(-270.000000) translate(-66.791752, -36.038407) " points="62.1259064 43.8435056 71.4575984 34.5118136 71.4575984 28.2333077"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.503173, 45.038407) scale(-1, 1) rotate(-270.000000) translate(-12.503173, -45.038407) " points="7.8373272 51.5485799 17.1690192 42.2168879 17.1690192 38.5282333"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(10.488003, 36.038407) rotate(-270.000000) translate(-10.488003, -36.038407) " points="5.8221571 44.56375 15.1538491 35.232058 15.1538491 27.5130632"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(43.038407, 71.365987) scale(1, -1) translate(-43.038407, -71.365987) " points="38.3725606 81.7453215 47.7042526 72.4136295 47.7042526 60.9866535"></polyline>
+                <polyline id="Path-301" stroke="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" transform="translate(34.038407, 71.560075) scale(-1, -1) translate(-34.038407, -71.560075) " points="29.3725606 82.1334964 38.7042526 72.8018044 38.7042526 60.9866535"></polyline>
+                <g id="Oval-Copy-158" transform="translate(18.000000, 20.000000) rotate(-90.000000) translate(-18.000000, -20.000000) " stroke="#FFFFFF">
+                    <circle stroke-width="1.5" stroke-linejoin="square" fill="#515151" fill-rule="evenodd" cx="18" cy="20" r="2.25"></circle>
+                    <use stroke-width="1" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval-Copy-159" transform="translate(60.000000, 20.000000) rotate(-90.000000) translate(-60.000000, -20.000000) " stroke="#FFFFFF">
+                    <circle stroke-width="1.5" stroke-linejoin="square" fill="#515151" fill-rule="evenodd" cx="60" cy="20" r="2.25"></circle>
+                    <use stroke-width="1" xlink:href="#path-2"></use>
+                </g>
+                <g id="Oval-Copy-160" transform="translate(61.000000, 61.000000) rotate(-90.000000) translate(-61.000000, -61.000000) " stroke="#FFFFFF">
+                    <circle stroke-width="1.5" stroke-linejoin="square" fill="#515151" fill-rule="evenodd" cx="61" cy="61" r="2.25"></circle>
+                    <use stroke-width="1" xlink:href="#path-3"></use>
+                </g>
+                <g id="Oval-Copy-161" transform="translate(17.000000, 61.000000) rotate(-90.000000) translate(-17.000000, -61.000000) " stroke="#FFFFFF">
+                    <circle stroke-width="1.5" stroke-linejoin="square" fill="#515151" fill-rule="evenodd" cx="17" cy="61" r="2.25"></circle>
+                    <use stroke-width="1" xlink:href="#path-4"></use>
+                </g>
+                <g id="Oval-Copy-162" transform="translate(39.000000, 44.000000) rotate(-90.000000) translate(-39.000000, -44.000000) " stroke="#FFFFFF">
+                    <circle stroke-width="1.5" stroke-linejoin="square" fill="#515151" fill-rule="evenodd" cx="39" cy="44" r="2.25"></circle>
+                    <use stroke-width="1" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
