@@ -1,3 +1,11 @@
+* {
+    font-family: "Days One", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
 .tabMenu__tabButton {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase !important;
