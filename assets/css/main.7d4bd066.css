@@ -34,19 +34,17 @@ code {
 
 .defi-wrapper .defi .defi-content {
     margin-bottom: 6rem;
-    max-width: 550px
+    max-width: 600px
 }
 
 .defi-wrapper .defi .subtitle, .defi-wrapper .defi .title {
     font-style: normal;
     font-weight: 900;
     text-align: left;
-    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff, -1px -1px #fff, 1px 1px #fff, -1px 1px #fff, 1px -1px #fff
 }
 
 .defi-wrapper .defi .subtitle {
     color: #7e4eff;
-    text-shadow: -1px 0 #7e4eff, 0 1px #7e4eff, 1px 0 #7e4eff, 0 -1px #7e4eff, -1px -1px #7e4eff, 1px 1px #7e4eff, -1px 1px #7e4eff, 1px -1px #7e4eff
 }
 
 .defi-wrapper .defi .text {
