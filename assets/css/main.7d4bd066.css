@@ -215,7 +215,7 @@ code {
 }
 
 .hoge-project .tokens-wrapper {
-    background: url(../images/hoge_tokens.59992d1d4658d67294af.png) no-repeat center left 10%
+    background: url(../images/monkey_token.png) no-repeat center left 10%
 }
 
 .hoge-project .tokens-wrapper .tokens {
@@ -457,7 +457,8 @@ code {
 }
 
 .music-wrapper {
-    background: #121622 url(../images/hoge_spacemen.3b8a40e5e97b276c915e.png) no-repeat center left 10%
+    background: #121622 url(../images/roadmap.png) no-repeat center;
+    background-size: contain;
 }
 
 .music-wrapper .music {
@@ -1198,7 +1199,7 @@ button.btn-custom:hover {
 }
 
 .roadmap-wrapper {
-    background: url(../images/hoge_footer.2e68282e6ac9845c5c59.png) 50%;
+    background: url(../images/footer.jpg) 50%;
     background-size: cover;
     display: flex;
     flex-direction: column;
