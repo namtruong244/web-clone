@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/arbbsztv/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp monkeykingWhitepaper.pdf $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
