@@ -9,9 +9,9 @@ code {
 }
 
 .defi-wrapper {
-    background: #121622 url(../images/monkeyking.png) no-repeat;
-    background-position: right;
+    background: #121622 url(../images/monkeyking.png) no-repeat right;
     background-size: contain;
+    background-position-x: 90%;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -212,7 +212,7 @@ code {
 }
 
 .hoge-project .tokens-wrapper {
-    background: url(../images/monkey_token.png) no-repeat center left 10%
+    background: url(../images/monkey_token.png) no-repeat center left 20%
 }
 
 .hoge-project .tokens-wrapper .tokens {
@@ -460,7 +460,7 @@ code {
 
 .music-wrapper .music {
     align-items: center;
-    height: 900px;
+    height: 700px;
     justify-content: space-between
 }
 
