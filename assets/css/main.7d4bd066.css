@@ -166,9 +166,6 @@ code {
 
 .hoge-project .infos {
     align-items: center;
-    background: #1a1f2d;
-    border: 1px solid #31384f;
-    border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -13938,4 +13935,15 @@ div[class^='sp_veil'] {
 .carousel-item.active {
     flex: 0 0 100%;
     margin-right: 40px;
+}
+
+#tokenomics .container {
+    flex-direction: column;
+    align-items: center;
+    background: #1a1f2d;
+    border: 1px solid #31384f;
+    border-radius: 30px;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    width: 100%;
 }
