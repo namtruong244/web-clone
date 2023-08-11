@@ -1,0 +1,122 @@
+.ova-team {
+    position: relative;
+    overflow: hidden;
+
+    .img {
+      position: relative;
+     
+
+      .mask{
+        background: linear-gradient( 0deg , rgba(16, 19, 31, 0.9) 0%, rgba(16, 19, 31, 0) 100% );
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        content: "";
+        border-radius: 5px;
+      }
+
+     
+    }
+    
+    &:hover{
+        .info {
+            bottom: 50px;
+        }
+
+        .list-icon {
+            bottom: 0;
+        }
+    }
+    
+    .team-img {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .info {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0 28px 25px 28px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -moz-transition: all .4s ease;
+        -webkit-transition: all all .4s ease;
+        transition: all .4s ease;
+
+       .title {
+           color: white;
+           font-size: 20px;
+           font-weight: 600;
+           line-height: 30px;
+            margin-bottom: 5px;
+       }
+       .sub-title {
+           color: #D3D4E0;
+           font-size: 16px;
+           font-weight: 400;
+           line-height: 24px;
+           margin-bottom: 5px;
+       }
+       .rectangle {
+           height: 2px;
+           width: 44px;
+           border-radius: 1px;
+           background-color: #48DCA8;
+       }
+    }
+
+    .list-icon {
+        position: absolute;
+        bottom: -60px;
+        left: 0;
+        padding: 0 28px 24px 28px;
+        -moz-transition: all .4s ease;
+        -webkit-transition: all all .4s ease;
+        transition: all .4s ease;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+
+            .item {
+                display: inline-block;
+
+                &:not(:last-child) {
+                    margin-right: 8px;
+                }
+
+                a {
+                    padding-top: 3px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(255, 255, 255, 0.12);
+                    border-radius: 6px;
+                    color: #D3D4E0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // -moz-transition: all .3s ease;
+                    // -webkit-transition: all .3s ease;
+                    // transition: all .3s ease;
+
+                    i {
+                        font-size: 18px;
+                    }
+
+                    &:hover {
+                        background-color: rgba(72, 220, 168, 0.2);
+                        color: #48DCA8;
+                    }
+                }
+            }
+        }
+    } 
+}
+ 

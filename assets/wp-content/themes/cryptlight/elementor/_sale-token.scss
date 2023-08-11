@@ -1,0 +1,39 @@
+.ova-sale-token{
+
+    padding: 30px;
+    border-radius: 10px;
+    height: auto;
+
+    &:hover {
+        transition: all 0.3s ease;
+    }
+    .date{
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 500; 
+        line-height: 24px;
+        color: #283445;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #DCDCE7;
+        padding-bottom: 3px;
+    }
+
+    .bonus{
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #283445;
+    
+    }
+
+    .price{
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #6D747C;
+
+    }
+   
+}

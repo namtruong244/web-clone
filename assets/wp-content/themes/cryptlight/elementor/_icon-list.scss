@@ -1,0 +1,59 @@
+.ova-icon-list {
+	.content-icon-list {
+		display: grid;
+		grid-row-gap: 20px;
+
+		&.column1 {
+  			grid-template-columns: 1fr;
+		}
+
+		&.column2 {
+  			grid-template-columns: 1fr 1fr;
+
+  			@media screen and (max-width: 500px) {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		&.column3 {
+  			grid-template-columns: 1fr 1fr 1fr;
+
+  			@media screen and (max-width: 768px) {
+				grid-template-columns: 1fr 1fr;
+			}
+
+			@media screen and (max-width: 500px) {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.item {
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: center;
+			justify-content: flex-start;
+
+			i {
+			    min-width: 40px;
+			    min-height: 40px;
+			    border-radius: 50%;
+			    font-size: 20px;
+			    color: #ffff;
+			    background-color: #3772ff;
+			    display: flex;
+			    flex-wrap: wrap;
+			    align-items: center;
+			    justify-content: center;
+			}
+
+			.title {
+				margin: 0;
+				margin-left: 20px;
+				color: var(--heading);
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 30px;
+			}
+		}
+	}
+}
