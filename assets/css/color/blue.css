@@ -1,0 +1,58 @@
+
+a { color: #39aecf;  }
+
+a:hover { color: #057d9f; }
+
+a:focus { color: #057d9f; outline: none; }
+
+
+.prices1 .pricesrow{
+transition: all .3s;
+-moz-transition: all .3s; 
+-webkit-transition:all .3s; 
+-o-transition: all .3s;
+}
+.prices1:hover .pricesrow {
+background:#39aecf;
+}
+.prices1:hover .pricesrow h4{
+color:#fff;
+}
+
+
+.contactform{
+background:#39aecf;
+}
+
+
+.buttonscroll{
+background:#39aecf;
+}
+
+
+.buttonscroll:hover{
+background:#057d9f;
+}
+
+
+
+.prices1 h3{
+background:#39aecf;
+}
+
+
+
+.buttonmain1{
+
+background:#39aecf;
+
+}
+
+.buttonmain1:link, .buttonmain1:visited{
+}
+
+.buttonmain1:hover{
+
+background:#057d9f;
+
+}
