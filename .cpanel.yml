@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/[root-folder]/[public_html/sub_domain]/
-    - /bin/cp file $DEPLOYPATH
-    - /bin/cp -R directory $DEPLOYPATH
+    - export DEPLOYPATH=/home/arbbsztv/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
