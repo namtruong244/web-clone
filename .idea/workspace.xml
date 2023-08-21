@@ -5,76 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9ad3f64-12fe-4497-89e9-938612044d2f" name="Changes" comment="Update code">
-      <change afterPath="$PROJECT_DIR$/assets/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/roadmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tokenomics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/countdown.b0ef6392ec4ff09ca2f2.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/form.72b77b99d67b130634d2.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/nav-menu.3de49ba5ef86f9a22ff5.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/css/frontend-lite.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/progress.ca55d33bb06cee4e6f02.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/video.fea4f8dfdf17262f23e8.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/gtranslate/flags/svg/en-us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/gtranslate/js/dwf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-common-styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-horizontal-timeline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-vertical-timeline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/themes/astra/assets/css/minified/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/themes/astra/assets/js/minified/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/46a66089-3f80-44fe-8de0-340c2c964cc1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/aiartist2023_a_Shiba_Inu_in_Elon_musks_starship_flying_towards__62d70141-c294-4ffd-b9ab-674c6e8eb0d5-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/aiartist2023_a_realistic_satellite_in_orbit_shiba_inu_2223d66a-7dd5-40ba-a9fe-64f4e8bc55f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/aiartist2023_satellite_moon_network_93eb7397-51f4-4430-9f84-7dea38ea6cf9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/aiartist2023_shiba_inu_is_driving_bulldozer_to_dig_the_golden_c_7f076622-6ee9-47bb-b762-92dfa2f31a9a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/cgc.c64f270e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/cmc.fb30a467.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/dext.bdf1866b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/dexview-1024x241-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/download-removebg-preview-300x150-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/xAIDOGE-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/xAIDOGE_Character2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/xAIDOGE_LOGO_BANNER.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/xAIDOGE_Tokenomics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/2023/08/xaidoge_infographic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/elementor/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/elementor/css/post-19.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-content/uploads/elementor/css/post-6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/css/dist/block-library/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/dist/hooks.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/dist/i18n.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/dist/vendor/regenerator-runtime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/dist/vendor/wp-polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/jquery/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wp-includes/js/jquery/ui/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/explore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hero.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/explore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature/xaidoge",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Volumes/HDD-Data/WorkSpace/Html/web-clone",
+    "last_opened_file_path": "/Volumes/HDD-Data/WorkSpace/Html/web-clone/assets/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -149,7 +85,10 @@
       <workItem from="1691226923103" duration="1000" />
       <workItem from="1691711644607" duration="1878000" />
       <workItem from="1691849296890" duration="762000" />
-      <workItem from="1692310351988" duration="3531000" />
+      <workItem from="1692310351988" duration="4838000" />
+      <workItem from="1692369667020" duration="663000" />
+      <workItem from="1692370339377" duration="676000" />
+      <workItem from="1692624372364" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Update code">
       <option name="closed" value="true" />
@@ -511,7 +450,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690904132246</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Update code">
+      <option name="closed" value="true" />
+      <created>1692317066761</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692317066761</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Update code">
+      <option name="closed" value="true" />
+      <created>1692370372059</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692370372059</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
