@@ -242,7 +242,7 @@
 }
 .footerLogoContainer img {
   display: block;
-  max-width: 60%;
+  max-width: 100%;
   margin: 0rem auto;
   height: auto;
 }
