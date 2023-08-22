@@ -285,8 +285,8 @@
                         <a href="#roadmap"> Roadmap </a>
                         <a href="#"> Airdrop </a>
                         <a href="#">Buy $PSY </a></div>
-                    <div class="walletInfoContainer"><span class="walletMoneyInformation">0.00 BNB</span>
-                        <button type="button" class="connectWalletOutlinedButton">Connect Wallet</button>
+                    <div class="walletInfoContainer loginWrapper"><span class="walletMoneyInformation walletInfo">0.00 BNB</span>
+                        <button type="button" class="connectWalletOutlinedButton loginButton" >Connect Wallet</button>
                     </div>
                 </div>
                 <button class="hamburgerMenuContainer" type="button">
@@ -302,8 +302,8 @@
                     <a href="#"> Airdrop </a>
                     <a href="#"> Buy $PSY </a>
                 </div>
-                <div class="mediumDevicesNavbar__walletInfoContainer"><span class="mediumDevicesNavbar__walletMoneyInformation">0.00 BNB</span>
-                    <button type="button" class="connectWalletOutlinedButton">Connect Wallet</button>
+                <div class="mediumDevicesNavbar__walletInfoContainer loginWrapper"><span class="mediumDevicesNavbar__walletMoneyInformation walletInfo">0.00 BNB</span>
+                    <button type="button" class="connectWalletOutlinedButton loginButton" >Connect Wallet</button>
                 </div>
                 <div class="mediumDevicesNavbar__walletInfoContainer"></div>
             </div>
@@ -393,8 +393,8 @@
                     <div class="logoWraper"><img src="./assets/images/tokens/hamsterSwapLogo.png" alt="HAM SWAP"></div>
                 </div>
             </a></div>
-            <div class="mediumDevicesNavbar__linksContainer" style="overflow: hidden; justify-content: end;"><span class="mediumDevicesNavbar__walletMoneyInformation">0.00 BNB</span>
-                <button type="button" class="connectWalletOutlinedButton">Connect Wallet</button>
+            <div class="mediumDevicesNavbar__linksContainer loginWrapper" style="overflow: hidden; justify-content: end;"><span class="mediumDevicesNavbar__walletMoneyInformation walletInfo">0.00 BNB</span>
+                <button type="button" class="connectWalletOutlinedButton loginButton">Connect Wallet</button>
             </div>
         </div>
     </div>
@@ -620,5 +620,67 @@
 }([])</script>
 <!--<script src="/static/js/5.c18a7baf.chunk.js"></script>-->
 <!--<script src="/static/js/main.171de667.chunk.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+<script>
+    window.userWalletAddress = null;
+    const loginButtons = document.querySelectorAll('.loginButton');
+    const loginWrappers = document.querySelectorAll('.loginWrapper');
+    const walletInfos = document.querySelectorAll('.walletInfo');
+
+    function toggleButton() {
+        if (!(window.ethereum && window.ethereum.isMetaMask)) {
+            loginWrappers.forEach(wrapper => {
+                wrapper.style.display = 'none';
+            });
+            return false;
+        }
+
+        loginButtons.forEach(button => {
+            button.addEventListener('click', loginWithMetaMask);
+        });
+    }
+
+    async function loginWithMetaMask() {
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
+        .catch((e) => {
+            console.error(e.message);
+            return;
+        });
+        if (!accounts) { return; }
+
+        window.userWalletAddress = accounts[0];
+        const web3 = new Web3(window.ethereum);
+        web3.eth.getBalance(window.userWalletAddress, (error, balance) => {
+            if (!error) {
+                const balanceInEth = web3.utils.fromWei(balance, 'ether');
+                walletInfos.forEach(item => {
+                    item.innerHTML = `${balanceInEth} ETH`
+                })
+            } else {
+                console.error('error:', error);
+            }
+        });
+
+        loginButtons.forEach(button => {
+            button.innerText = 'Sign out';
+            button.removeEventListener('click', loginWithMetaMask);
+            button.addEventListener('click', signOutOfMetaMask);
+        });
+    }
+
+    function signOutOfMetaMask() {
+        window.userWalletAddress = null;
+
+        loginButtons.forEach(button => {
+            button.innerText = 'Connect Wallet';
+            button.removeEventListener('click', signOutOfMetaMask);
+            button.addEventListener('click', loginWithMetaMask);
+        });
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        toggleButton();
+    });
+</script>
 </body>
 </html>
