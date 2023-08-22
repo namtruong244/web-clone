@@ -676,6 +676,10 @@
             button.removeEventListener('click', signOutOfMetaMask);
             button.addEventListener('click', loginWithMetaMask);
         });
+
+        walletInfos.forEach(item => {
+            item.innerHTML = `0.0 BNB`
+        })
     }
 
     window.addEventListener('DOMContentLoaded', () => {
